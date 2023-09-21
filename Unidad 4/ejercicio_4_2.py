@@ -31,12 +31,15 @@ def pedir_dos_lados():
        print('Los argumentos deben ser decimales o enteros')
 
 def pedir_radio():
-  while True:
-    try:
-        radio = float(input("Dame el radio del circulo: "))
-        return radio
-    except Exception as e:
-       print('Los argumentos deben ser decimales o enteros')
+    """
+    Main function to run the program.
+    """
+    while True:
+        try:
+            radio = float(input("Dame el radio del circulo: "))
+            return radio
+        except Exception as e:
+            print('Los argumentos deben ser decimales o enteros')
 
 def main():
     while True:
